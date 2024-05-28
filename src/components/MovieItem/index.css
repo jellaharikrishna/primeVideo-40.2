@@ -1,0 +1,25 @@
+@media (min-width: 992px) {
+  .thumbnail-image {
+    cursor: pointer;
+    width: 90%;
+  }
+
+  .popup-content {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+  }
+  .popup-close-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    align-self: flex-end;
+  }
+  .popup-videourl {
+    padding: 30px;
+  }
+}
